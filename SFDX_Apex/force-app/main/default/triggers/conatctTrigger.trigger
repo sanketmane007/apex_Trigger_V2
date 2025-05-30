@@ -13,7 +13,7 @@ Count the total number of contacts associated to an Account whenever a Contact i
 
 Inserted, Updated or Deleted related to the Account.
 Field Total_Contacts_Count__c should get updated with the latest count.
-*/
+
 
 Set<Id> accids = new Set<Id>();
 if(trigger.isAfter && (trigger.isinsert || trigger.isUndelete)){   
